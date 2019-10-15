@@ -14,7 +14,7 @@ var (
 
 var resourceInterceptor *ResourceInterceptor
 
-func main() {
+func main(argc int,argv[] char*) {
 	lang := flag.String("lang", "en_US", "langauge code")
 	port := flag.Int("port", 8066, "port")
 	nocdn := flag.Bool("nocdn", false, "use CDN or not")
